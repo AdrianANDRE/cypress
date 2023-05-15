@@ -5,7 +5,8 @@ module.exports = defineConfig({
     supportFile: false,
     setupNodeEvents(on, config) {
       // implement node event listeners here
+    screenshotsFolder: "C:\\Users\\aandre\\Desktop\\cypress"
     },
   },
-  watchForFileChanges: true,
+  watchForFileChanges: true,  
 });
